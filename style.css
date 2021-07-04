@@ -57,9 +57,26 @@ h2{
     box-shadow: 10px 10px 40px gray;
     padding-left: 25px;
     border-radius: 5px;
+    
 }
 .ex-area{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+}
+#baby-web{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#stuck-web{
+    border-left: 10px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+} 
+.last{
+    margin-top: 200px;
 }
