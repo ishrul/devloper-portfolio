@@ -74,8 +74,12 @@ h2{
     border-image: linear-gradient(purple, tomato);
     border-image-slice: 1;
 }
-footer p{
-    text-align: center;
+footer marquee{
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
 } 
 .last{
     margin-top: 200px;
